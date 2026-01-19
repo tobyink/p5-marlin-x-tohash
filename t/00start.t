@@ -23,8 +23,10 @@ the same terms as the Perl 5 programming language system itself.
 use Test2::V0;
 
 my @modules = qw(
-	Carp
-	Test2::V0
+	Clone
+	Eval::TypeTiny::CodeAccumulator
+	Marlin
+	Types::Common
 );
 
 diag "\n####";

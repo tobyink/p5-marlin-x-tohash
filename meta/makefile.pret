@@ -3,7 +3,11 @@
 @prefix : <http://ontologi.es/doap-deps#>.
 
 `Marlin-X-ToHash`
-	:runtime-requirement    [ :on "perl 5.010001"^^:CpanId ];
+	:runtime-requirement    [ :on "perl 5.008008"^^:CpanId ];
+	:runtime-requirement    [ :on "Clone"^^:CpanId ];
+	:runtime-requirement    [ :on "Eval::TypeTiny::CodeAccumulator"^^:CpanId ];
+	:runtime-requirement    [ :on "Marlin 0.020000"^^:CpanId ];
+	:runtime-requirement    [ :on "Types::Common"^^:CpanId ];
 	:test-requirement       [ :on "Test2::V0"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Tools::Spec"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Require::AuthorTesting"^^:CpanId ];
